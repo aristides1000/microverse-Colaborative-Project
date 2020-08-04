@@ -8,9 +8,9 @@ h1, div, a, footer{
     text-align: center;
 }
 
-/* body{
+body{
     background-color: aquamarine;
-} */
+}
 
 #title p {
     color: rgb(228, 16, 16);
@@ -46,11 +46,17 @@ footer a:hover {
     background-color: #4f7b4b;
 }
 
-@media screen and (max-width: 600px) {
-    h1 {
-        color: blue;
-    }
+@media  (max-width: 600px) {
     body {
       background-color: lightblue;
+    }
+    #tribute-info {
+        max-width: 80%;
+        margin: auto;
+    }
+    img{
+        display: block;
+        max-width: 50%;
+        margin: auto;
     }
   }
