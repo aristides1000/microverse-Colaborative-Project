@@ -1,5 +1,13 @@
 img{
     display: block;
-    max-width: 100%;
+    max-width: 30%;
     margin: auto;
+}
+
+h1, div, a, footer{
+    text-align: center;
+}
+
+body{
+    background-color: aquamarine;
 }
