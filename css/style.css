@@ -11,3 +11,37 @@ h1, div, a, footer{
 body{
     background-color: aquamarine;
 }
+
+#title p {
+    color: rgb(228, 16, 16);
+    font-weight: bold;
+}
+
+#tribute-info {
+    max-width: 40%;
+    margin: auto;
+}
+
+#tribute-info p:nth-child(even) {
+    border: 2px solid #4fd743;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4fd743;
+    padding: 10px 16px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10px auto;
+
+}
+
+footer a:hover {
+    background-color: #4f7b4b;
+}
